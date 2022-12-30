@@ -3,7 +3,10 @@ import '../style/Formulario.css'
 import logo from '../img/logo.png';
 import participante from '../img/participante.png';
 
+// TO RUN TESTS: npm test IN TERMINAL
+// ALURA LINK: https://cursos.alura.com.br/course/react-testando-componentes
 // FIGMA LINK: https://www.figma.com/file/c3RarCwq533GF1rrTRQEES/Sorteador-de-amigo-secreto?node-id=35%3A134
+
 
 const Formulario = () => {
   return (
