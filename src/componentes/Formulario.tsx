@@ -15,9 +15,15 @@ const Formulario = () => {
             <img src={logo} alt="" />
             <img src={participante} alt="" />
         </div>
+        
         <div className='container-input'>
-            <input type="text" placeholder='Insira os nomes dos participantes'/>
-            <button disabled={true}>Adicionar</button>
+            <div className='title-vamos-comecar'>
+              <h1>Vamos começar!</h1>
+            </div>
+            <div className='input-insira-nomes'>
+              <input type="text" placeholder='Insira os nomes dos participantes'/>
+              <button disabled={true}>Adicionar</button>
+            </div>
         </div>
         
     </form>
