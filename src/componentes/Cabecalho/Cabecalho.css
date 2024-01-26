@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.page-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.page-form img{
+    width: 26vw;
+}
+
+.form-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.form-title h1 {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.form-title h2 {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.form-title img {
+    width: 60px;
+    margin-bottom: 6px;
+    animation: girar 12s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 1045px) {
+    .form-title {
+        margin-top: 20px;
+    }
+
+    .form-title h1 {
+        font-size: 0.8rem;
+    }
+
+    .form-title h2 {
+        font-size: 1rem;
+    }
+    
+    .form-title img {
+        width: 20px;
+    }
+}
