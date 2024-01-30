@@ -2,7 +2,7 @@
 import './AppMain.css';
 
 // COMPONENTS
-import Formulario from '../Formulario/Formulario';
+import Formulario from '../../componentes/Formulario/Formulario';
 import Cabecalho from '../../componentes/Cabecalho/Cabecalho';
 
 // REACT
