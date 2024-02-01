@@ -1,22 +1,24 @@
-// CSS
-import './AppMain.css';
-
 // COMPONENTS
 import Formulario from '../../componentes/Formulario/Formulario';
 import Cabecalho from '../../componentes/Cabecalho/Cabecalho';
+import ListaParticipantes from '../../componentes/ListaParticipantes/ListaParticipantes';
+import Footer from '../../componentes/Footer/Footer';
+import Card from '../../componentes/Card/Card';
 
 // REACT
 import React from 'react'
 
 const AppMain = () => {
   return (
-    <div className="App">
-        
-        <header className="App-header">
-            <Cabecalho/>
+    <Card>
+        <Cabecalho/>
+        <section>
+            <h2>Vamos começar!</h2>
             <Formulario />
-        </header>
-    </div> 
+            <ListaParticipantes/>
+            <Footer/>
+        </section>
+    </Card> 
   )
 }
 

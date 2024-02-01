@@ -7,15 +7,6 @@ import { RecoilRoot } from 'recoil';
 // TO RUN TESTS: npm test IN TERMINAL
 
 describe('comportamento do Formulario.tsx', () => {
-  test('renders learn react link', () => {
-    render(
-        <RecoilRoot>
-          <Formulario />
-        </RecoilRoot>); 
-    // THIS TEST IS LOOKING FOR SOME TEXT IN APP COMPONENT, THE SAME CAN DO WITH ANY COMPONENT AND TEXT
-    const linkElement = screen.getByText(/Vamos começar!/i);
-    expect(linkElement).toBeInTheDocument();
-  });
 
   test('quando o input está vazio, novos participantes não podem ser adicionados', () => {
     render(

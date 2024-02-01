@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a pagina de config deve ser renderizada corretamente 1`] = `
+<div>
+  <section
+    class="card"
+  >
+    <div
+      class="page-form"
+    >
+      <div
+        class="form-title"
+      >
+        <img
+          alt="Imagem decorativa na figura de um dado."
+          src="dice.svg"
+        />
+        <h1>
+          SORTEADOR DE AMIGO
+        </h1>
+        <h2>
+          SECRETO
+        </h2>
+      </div>
+      <img
+        alt="Imagem decorativa, mulher jovem, parda, cabelo encaracolado estilo black power, vestindo uma blusa laranja com um tablet amarelo nas mãos."
+        src="participante.png"
+      />
+    </div>
+    <section>
+      <h2>
+        Vamos começar!
+      </h2>
+      <form>
+        <div
+          class="grupo-input-btn"
+        >
+          <input
+            placeholder="Insert players names"
+            type="text"
+            value=""
+          />
+          <button
+            disabled=""
+          >
+            Adicionar
+          </button>
+          
+        </div>
+      </form>
+      <ul />
+      <footer
+        class="rodape-configuracoes"
+      >
+        <button
+          class="botao"
+          disabled=""
+        >
+          Iniciar brincadeira
+        </button>
+      </footer>
+    </section>
+  </section>
+</div>
+`;

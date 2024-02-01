@@ -19,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4px;
+    gap: 8px;
 }
 
 .form-title h1 {
@@ -29,6 +29,8 @@
     font-size: 1.2rem;
     align-items: center;
     text-align: center;
+    color: #fff;
+    margin-bottom: -90px;
 }
 
 .form-title h2 {

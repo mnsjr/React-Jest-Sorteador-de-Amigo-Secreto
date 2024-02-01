@@ -2,10 +2,9 @@
 import './Formulario.css'
 
 // REACT
-import {useState, useRef,  useEffect} from 'react'
+import {useState, useRef} from 'react'
 
 // COMPONENTS
-import Cabecalho from '../Cabecalho/Cabecalho'
 import { useAdicionarParticipante } from '../../state/hook/useAdicionarParticipante';
 import { useMensagemDeErro } from '../../state/hook/useMensagemDeErro';
 
@@ -32,23 +31,16 @@ const Formulario = () => {
 
   return (
     <form onSubmit={adicionarParticipante}>
-      <Cabecalho/>
-      <div className='container-input'>
-          <div className='title-vamos-comecar'>
-            <h2>Vamos começar!</h2>
-          </div>
-          <div className='input-insira-nomes'>
-            <input 
-              ref={inputRef}
-              value={nome}
-              onChange={event => setNome(event.target.value)}
-              type="text" 
-              placeholder='Insert players names'/>
-            <button disabled={!nome}>Adicionar</button>
-            {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
-          </div>
+      <div className="grupo-input-btn">
+        <input 
+          ref={inputRef}
+          value={nome}
+          onChange={event => setNome(event.target.value)}
+          type="text" 
+          placeholder='Insert players names'/>
+        <button disabled={!nome}>Adicionar</button>
+        {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
       </div>
-        
     </form>
   )
 }
