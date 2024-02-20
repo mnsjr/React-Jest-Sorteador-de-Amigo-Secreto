@@ -1,12 +1,15 @@
 .grupo-input-btn {
     margin-bottom: 32px;
+    width: 40vw;
+    display: flex;
+
 }
 
 .grupo-input-btn input {
     border-top-left-radius: 45px;
     border-bottom-left-radius: 45px;
     height: 62px;
-    width: 70%;
+    width: 100%;
     box-sizing: border-box;
     padding-left: 32px;
     font-size: 16px;

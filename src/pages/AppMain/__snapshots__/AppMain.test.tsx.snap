@@ -22,12 +22,18 @@ exports[`a pagina de config deve ser renderizada corretamente 1`] = `
           SECRETO
         </h2>
       </div>
-      <img
-        alt="Imagem decorativa, mulher jovem, parda, cabelo encaracolado estilo black power, vestindo uma blusa laranja com um tablet amarelo nas mãos."
-        src="participante.png"
-      />
+      <div
+        class="page-form-img"
+      >
+        <img
+          alt="Imagem decorativa, mulher jovem, parda, cabelo encaracolado estilo black power, vestindo uma blusa laranja com um tablet amarelo nas mãos."
+          src="participante.png"
+        />
+      </div>
     </div>
-    <section>
+    <section
+      class="container-app-main"
+    >
       <h2>
         Vamos começar!
       </h2>
@@ -58,6 +64,10 @@ exports[`a pagina de config deve ser renderizada corretamente 1`] = `
         >
           Iniciar brincadeira
         </button>
+        <img
+          alt="Imagem ilustrativa."
+          src="sacolas.png"
+        />
       </footer>
     </section>
   </section>

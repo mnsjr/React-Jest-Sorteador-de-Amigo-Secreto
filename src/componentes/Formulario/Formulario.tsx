@@ -37,7 +37,8 @@ const Formulario = () => {
           value={nome}
           onChange={event => setNome(event.target.value)}
           type="text" 
-          placeholder='Insert players names'/>
+          placeholder='Insert players names'
+        />
         <button disabled={!nome}>Adicionar</button>
         {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
       </div>

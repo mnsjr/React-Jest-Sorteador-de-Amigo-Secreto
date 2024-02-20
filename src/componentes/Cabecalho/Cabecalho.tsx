@@ -13,7 +13,9 @@ const Cabecalho = () => {
           <h1>SORTEADOR DE AMIGO</h1>
           <h2>SECRETO</h2>
         </div>
-        <img src={participante} alt="Imagem decorativa, mulher jovem, parda, cabelo encaracolado estilo black power, vestindo uma blusa laranja com um tablet amarelo nas mãos." />
+        <div className='page-form-img'>
+          <img src={participante} alt="Imagem decorativa, mulher jovem, parda, cabelo encaracolado estilo black power, vestindo uma blusa laranja com um tablet amarelo nas mãos." />
+        </div>
     </div>
   )
 }
