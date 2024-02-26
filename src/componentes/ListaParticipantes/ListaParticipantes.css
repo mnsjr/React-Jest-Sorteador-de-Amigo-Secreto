@@ -1,0 +1,16 @@
+.lista-participantes-list {
+    display: flex;
+}
+
+.lista-participantes-list li {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #FE652B;
+}
+
+.lista-participantes-list span {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #000;
+    padding: 2px;
+}

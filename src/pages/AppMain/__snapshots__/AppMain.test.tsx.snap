@@ -11,16 +11,25 @@ exports[`a pagina de config deve ser renderizada corretamente 1`] = `
       <div
         class="form-title"
       >
-        <img
-          alt="Imagem decorativa na figura de um dado."
-          src="dice.svg"
-        />
+        <div
+          class="form-title-dice"
+        >
+          <img
+            alt="Imagem decorativa na figura de um dado."
+            src="dice.svg"
+          />
+          <img
+            alt="Imagem decorativa na figura de um dado."
+            src="dice2.svg"
+          />
+          <img
+            alt="Imagem decorativa na figura de um dado."
+            src="dice.svg"
+          />
+        </div>
         <h1>
-          SORTEADOR DE AMIGO
+          SORTEADOR DE AMIGO SECRETO
         </h1>
-        <h2>
-          SECRETO
-        </h2>
       </div>
       <div
         class="page-form-img"
@@ -41,20 +50,28 @@ exports[`a pagina de config deve ser renderizada corretamente 1`] = `
         <div
           class="grupo-input-btn"
         >
-          <input
-            placeholder="Insert players names"
-            type="text"
-            value=""
-          />
-          <button
-            disabled=""
+          <div
+            class="grupo-input-btn-1"
           >
-            Adicionar
-          </button>
-          
+            <input
+              placeholder="Insert players names"
+              type="text"
+              value=""
+            />
+            <button
+              disabled=""
+            >
+              Adicionar
+            </button>
+          </div>
+          <div
+            class="grupo-input-btn-2"
+          />
         </div>
       </form>
-      <ul />
+      <ul
+        class="lista-participantes-list"
+      />
       <footer
         class="rodape-configuracoes"
       >

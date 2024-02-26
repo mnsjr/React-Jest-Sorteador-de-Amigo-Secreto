@@ -2,19 +2,30 @@
     margin-bottom: 32px;
     width: 40vw;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.grupo-input-btn-1 {
+    display: flex;
+    width: 100%;
+}
+
+.grupo-input-btn-2 {
+    display: flex;
+    width: 100%;
 }
 
 .grupo-input-btn input {
     border-top-left-radius: 45px;
     border-bottom-left-radius: 45px;
-    height: 62px;
+    height: 52px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 32px;
     font-size: 16px;
     border: 2px solid black;
-    box-shadow: 0px 2px 0px 1px #000000;
+    box-shadow: 2px 2px 4px 1px #212121;
 }
 
 .grupo-input-btn input:focus {
@@ -24,13 +35,13 @@
 .grupo-input-btn button {
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
-    height: 62px;
+    height: 52px;
     width: 30%;
     box-sizing: border-box;
     border: 2px solid black;
     font-size: 16px;
     color: #000000;
-    box-shadow: 2px 2px 0px 1px #000000;
+    box-shadow: 2px 2px 4px 1px #212121;
     cursor: pointer;
     background-color: #c4c4c4;
 }
@@ -44,7 +55,9 @@
     cursor: not-allowed;
 }
 
-.alerta.erro {
+.grupo-input-btn p {
+    width: 100%;
+    margin-bottom: -30px;
     color: #842029;
     background-color: #f8d7da;
     padding: 16px;
@@ -60,7 +73,7 @@
         display: block;
         width: 100%;
         border-radius: 45px;
-        box-shadow: 0px 2px 0px 1px #000000;    
+        box-shadow: 2px 2px 4px 1px #212121; 
         margin-bottom: 18px;
     }
     .grupo-input-btn button {

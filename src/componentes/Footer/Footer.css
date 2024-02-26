@@ -6,9 +6,9 @@
 
 .botao {
     width: 350px;
-    height: 62px;
+    height: 52px;
     font-size: 18px;
-    box-shadow: 2px 2px 0px 1px #000000;
+    box-shadow: 2px 2px 4px 1px #212121;
     border-radius: 45px;
     background-color: #ff7d4e;
     color: #FFF;

@@ -32,15 +32,19 @@ const Formulario = () => {
   return (
     <form onSubmit={adicionarParticipante}>
       <div className="grupo-input-btn">
-        <input 
-          ref={inputRef}
-          value={nome}
-          onChange={event => setNome(event.target.value)}
-          type="text" 
-          placeholder='Insert players names'
-        />
-        <button disabled={!nome}>Adicionar</button>
-        {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
+        <div className='grupo-input-btn-1'>
+          <input 
+            ref={inputRef}
+            value={nome}
+            onChange={event => setNome(event.target.value)}
+            type="text" 
+            placeholder='Insert players names'
+          />
+          <button disabled={!nome}>Adicionar</button>
+        </div>
+        <div className='grupo-input-btn-2'>
+          {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
+        </div>
       </div>
     </form>
   )

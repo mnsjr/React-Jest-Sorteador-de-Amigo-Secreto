@@ -47,7 +47,7 @@ const Sorteio = () => {
                         value={participanteDaVez}
                         onChange={e => SetParticipanteDaVez(e.target.value)}
                     >
-                        <option value="" disabled hidden>Selecione o seu nome</option>
+                        <option value="" disabled hidden>Selecione seu nome</option>
                         {participantes.map((participante) => (
                             <option key={participante}>{participante}</option>
                         ))}
@@ -58,7 +58,12 @@ const Sorteio = () => {
 
                 <div className="resultado-sorteio">
                     {
-                        amigoSecreto && <p className="resultado" role='alert'>{amigoSecreto}</p>
+                        amigoSecreto && 
+                            <p className="resultado" role='alert'>
+                                {amigoSecreto !== 'Próximo!' ? ' + ' : ''} 
+                                {amigoSecreto}
+                                {amigoSecreto !== 'Próximo!' ? ' + ' : ''}
+                            </p>
                     }
                 </div>
 
