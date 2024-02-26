@@ -1,9 +1,9 @@
 /* src/componentes/Card/estilos.css */
 .card {
     background: #FFF9EB;
-    border: 2px solid #000000;
+    border-top: 2px solid #000000;
     box-sizing: border-box;
-    border-radius: 64px 64px 0px 0px;
+    box-shadow: inset 0px 2px 8px 1px #000000bd;
     padding: 40px;
     display: flex;
     flex: 1;

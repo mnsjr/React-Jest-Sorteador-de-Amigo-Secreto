@@ -16,7 +16,7 @@ footer.sorteio {
     background-color: #FE652B;
     color: #FFF;
     cursor: pointer;
-    margin: 16px 0;
+    margin: 10px 0;
 }
 
 .botao-sortear:disabled {

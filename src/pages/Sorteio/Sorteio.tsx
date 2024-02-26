@@ -23,7 +23,7 @@ const Sorteio = () => {
 
         setTimeout(() => {
             setAmigoSecreto('Próximo!')
-        }, 3000)
+        }, 1500)
     }
 
     const reiniciar = () => {
