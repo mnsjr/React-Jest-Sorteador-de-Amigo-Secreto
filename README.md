@@ -1,5 +1,11 @@
 # React JS | Jest
 
+The application was deployed on the Vercel platform. 
+
+Its configured to run the test script before building.
+
+https://react-jest-sorteador-de-amigo-secreto.vercel.app/
+
 The application was developed following the Test Driven Development (TDD) methodology.
 Using the following stacks:
 
